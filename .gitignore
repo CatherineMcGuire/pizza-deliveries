@@ -1,0 +1,54 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+*.egg-info/
+*.eggs/
+*.venv/
+*.env/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data
+data/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Streamlit-specific
+.streamlit/config.toml
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Test files
+*.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Package distribution
+build/
+dist/
+*.egg
+*.egg-info/
